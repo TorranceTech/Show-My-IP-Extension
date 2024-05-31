@@ -1,3 +1,39 @@
+### Show My IP Extension
+
+- Description
+
+- Show My IP is a simple extension for Firefox that displays your IP address and the IP address of the sites you visit, along with country flags indicating the origin of the IP addresses.
+
+- Build Instructions
+
+- To build an exact copy of the add-on code, follow these step-by-step instructions:
+
+Clone the repository:
+bash
+Copy code
+```
+git clone https://github.com/yourusername/show-my-ip-extension.git
+```
+Navigate to the project directory:
+bash
+Copy code
+```
+cd show-my-ip-extension
+```
+Install dependencies:
+Copy code
+```
+npm install
+```
+Build the extension:
+```
+arduino
+```
+Copy code
+```
+npm run build
+```
+
 Build Script
 
 The build script (npm run build) executes all necessary technical steps to build the extension. It compiles JavaScript, HTML, and CSS files and creates the final extension package.
